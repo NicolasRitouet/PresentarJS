@@ -1,0 +1,4 @@
+<h2>{{presentation.title}}</h2>
+  <ul>
+      <li ng-repeat="slide in presentation.slides"><a href="#/presentation/{{presentation.id}}/slide/{{slide.id}}">{{slide.title}} - {{slide.content}}</a></li>
+  </ul>

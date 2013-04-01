@@ -1,0 +1,8 @@
+<h2>{{slide.title}}</h2>
+<div>
+	{{slide.content}}
+</div>
+<a href="#/presentation/{{presentation.id}}/slide/{{slide.next}}" ng-show="slide.next != undefined">Next slide</a>
+<a href="#/presentation/{{presentation.id}}/slide/{{slide.previous}}" ng-show="slide.previous != undefined">Previous slide</a>
+<br />
+<a href="#/presentations">Back to presentation list</a>

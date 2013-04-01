@@ -1,0 +1,11 @@
+<div class="hero-unit">
+  <h1>PresentarJS: yet another presentation tool.</h1>
+  <div ng-repeat="presentation in presentations">
+  	<h2><a href="#/presentation/{{presentation.id}}">{{presentation.title}}</a></h2>
+
+  <ul>
+      <li ng-repeat="slide in presentation.slides">{{slide.title}} - {{slide.content}}</li>
+  </ul>
+
+  </div>
+</div>
