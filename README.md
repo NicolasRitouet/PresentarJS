@@ -12,7 +12,7 @@ Clone the repository
 If you don't have Ruby and Compass, install them  
 
     sudo apt-get install rubygems  
-    sudo gem install compass  
+    gem install compass  
 Install the dependencies  
 
     sudo npm install && bower install  
